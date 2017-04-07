@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background: #fff;
+    font: normal 12px/22px 宋体;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.picScroll-left {
+    width: 1175px;
+    position: relative;
+    margin-left: 20px
+}
+
+.picScroll-left .prev {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    z-index: 99999;
+    cursor: pointer;
+    background: url("../images/tb_anlizhanshi.png") no-repeat;
+}
+
+.picScroll-left .next {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 45%;
+    right: -3px;
+    z-index: 99999;
+    cursor: pointer;
+    background: url("../images/tb_anlizhanshi_1.png") no-repeat;
+}
+.picScroll-left .bd {
+    padding: 20px;
+}
+
+.picScroll-left .bd ul {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.picScroll-left .bd ul li {
+    margin: 0 4px;
+    float: left;
+    _display: inline;
+    overflow: hidden;
+    text-align: center;
+}
+
+.picScroll-left .bd ul li .pic {
+    text-align: center;
+}
+
+.picScroll-left .bd ul li .pic img {
+    width: 270px;
+    height: 200px;
+    display: block;
+    padding: 2px;
+}
+
+.picScroll-left .bd ul li .pic a:hover img {
+    border-color: #999;
+}
+
+.picScroll-left .bd ul li .title {
+    line-height: 24px;
+}

@@ -1,0 +1,75 @@
+header
+  height 35px
+  line-height 35px
+  color #ccc
+  background #7c7c7c
+  .header__title
+    float left
+
+.container
+  width 1190px
+  margin 0 auto
+  overflow hidden
+  .header__search
+    float right
+    input
+      box-sizing border-box
+      width 215px
+      height 20px
+      padding-left 10px
+      padding-right 23px
+      border 1px solid #ccc
+      border-radius 10px
+      outline none
+      background url("../images/tb_sousuo.png") 193px center no-repeat #7c7c7c
+      color #ccc
+
+nav
+  border-bottom 1px solid #1f974b
+  .container
+    height 65px
+    display flex
+    justify-content space-between
+    aside
+      display flex
+      align-items center
+      h2
+        font-size 22px
+        color #1f974b
+        font-weight bold
+    section
+      display flex
+      > ul
+        display flex
+        align-items flex-end
+        > li
+          width 102px
+          height 30px
+          line-height 30px
+          text-align center
+          &:hover
+            background #01af63
+            ul
+              display block
+            a
+              color #fff
+            .list
+              display block
+
+.list
+  display none
+  position absolute
+  background #01af63
+  z-index 999999
+  li
+    width 102px
+    height 30px
+    //position relative
+    line-height 30px
+    text-align center
+    a
+      color #fff
+    &:hover
+      background #019d59
+      a
+        color #fff

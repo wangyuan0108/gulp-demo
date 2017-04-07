@@ -1,0 +1,275 @@
+body
+  font-size 12px
+  font-family "Microsoft YaHei"
+
+header
+  height 35px
+  line-height 35px
+  color #ccc
+  background #7c7c7c
+  .header__title
+    float left
+
+.container
+  width 1190px
+  margin 0 auto
+  overflow hidden
+  .header__search
+    float right
+    input
+      box-sizing border-box
+      width 215px
+      height 20px
+      padding-left 10px
+      padding-right 23px
+      border 1px solid #ccc
+      border-radius 10px
+      outline none
+      background url("../images/tb_sousuo.png") 193px center no-repeat #7c7c7c
+      color #ccc
+
+nav
+  border-bottom 1px solid #1f974b
+  .container
+    height 65px
+    display flex
+    justify-content space-between
+    aside
+      display flex
+      align-items center
+      h2
+        font-size 22px
+        color #1f974b
+        font-weight bold
+    section
+      display flex
+      > ul
+        display flex
+        align-items flex-end
+        > li
+          width 102px
+          height 30px
+          line-height 30px
+          text-align center
+          &:first-child
+            background #01af63
+            a
+              color #fff
+          &:hover
+            background #01af63
+            ul
+              display block
+            a
+              color #fff
+            .list
+              display block
+
+.list
+  display none
+  position absolute
+  background #01af63
+  z-index 999999
+  li
+    width 102px
+    height 30px
+    //position relative
+    line-height 30px
+    text-align center
+    a
+      color #fff
+    &:hover
+      background #019d59
+      a
+        color #fff
+
+.focus
+  height 520px
+  background #ccc
+
+.banner
+  height 27px
+  line-height 27px
+  background #e5ecf4
+  span
+    float left
+    padding 0 8px
+    margin-left 20px
+    color #ffffff
+    background #01af63
+  li
+    float left
+    img
+      margin 0 5px 0 15px
+    a
+      color #666
+
+.profile
+  display flex
+  margin-top 40px
+  section
+    margin-left 40px
+    h2
+      width 265px
+      font-size 20px
+      padding-bottom 5px
+      border-bottom 2px solid #019d59
+      transform translateY(2px)
+    p
+      line-height 30px
+      text-align justify
+      border-top 2px solid #ccc
+      color #474747
+    a
+      display inline-block
+      width 90px
+      height 30px
+      line-height 30px
+      background #fff799
+      text-align center
+      float right
+
+.goods
+  margin-top 55px
+  aside
+    text-align center
+    h2
+      margin-bottom 10px
+    span
+      padding-bottom 5px
+      border-bottom 2px solid #1f974b
+      font-size 20px
+    p
+      font-size 18px
+      color #25b6a6
+    h3
+      margin-bottom 40px
+      font-size 18px
+      color #ffb437
+  section
+    display flex
+    .content-box
+      display flex
+      flex 1
+      justify-content center
+      figure
+        text-align center
+        ul
+          display flex
+          flex-wrap wrap
+          justify-content space-between
+          li
+            margin-top 10px
+            width 140px
+            text-align center
+            &:hover
+              background #25b6a6
+              a
+                color #fff
+
+.goods-two
+  margin-top 55px
+
+  aside
+    text-align center
+    h2
+      margin-bottom 10px
+    span
+      padding-bottom 5px
+      border-bottom 2px solid #1f974b
+      font-size 20px
+    p
+      font-size 18px
+      color #25b6a6
+    h3
+      margin-bottom 40px
+      font-size 18px
+      color #ffb437
+
+  section
+    display flex
+    .content-box
+      display flex
+      flex 1
+      justify-content center
+      figure
+        text-align center
+        ul
+          display flex
+          flex-wrap wrap
+          justify-content space-between
+          li
+            margin-top 10px
+            width 140px
+            text-align center
+            &:hover
+              background #ffb437
+              a
+                color #fff
+
+.msg
+  margin-top 55px
+
+  aside
+    text-align center
+    h2
+      margin-bottom 40px
+    span
+      padding-bottom 5px
+      border-bottom 2px solid #1f974b
+      font-size 20px
+
+  section
+    display flex
+    .content-box
+      display flex
+      flex 1
+      flex-direction column
+      margin-left 20px
+      h4
+        font-size 16px
+        color #01af63
+      ul
+        li
+          line-height 22px
+          color #666
+          p
+            float left
+            width 280px
+            overflow hidden
+            text-overflow ellipsis
+            white-space nowrap
+          span
+            float right
+
+.wrapper
+  margin-top 30px
+  padding 20px 0
+  background #f3f3f3
+
+footer
+  height 225px
+  margin-top 20px
+  background #222
+  article
+    background #333
+    section
+      display flex
+      ul
+        flex 1
+        color #fff
+        padding-top 30px
+        background #333
+        margin-right 2px
+        li
+          text-align center
+          font-size 14px
+          line-height 25px
+          a
+            color #fff
+          &:first-child
+            a
+              color #8bcc4c
+  aside
+    color #fff
+    p
+      text-align center
