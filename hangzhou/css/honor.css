@@ -1,0 +1,28 @@
+main section {
+  display: flex;
+  flex-wrap: wrap;
+}
+main section .content-box {
+  display: flex;
+  flex: 1;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+main section .content-box h4 {
+  font-size: 16px;
+  color: #01af63;
+}
+main section .content-box ul li {
+  line-height: 22px;
+  color: #666;
+}
+main section .content-box ul li p {
+  float: left;
+  width: 280px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+main section .content-box ul li span {
+  float: right;
+}
