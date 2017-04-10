@@ -1,0 +1,32 @@
+.footer_about {
+  background: #333;
+  color: #fff;
+}
+.footer_about .footer_boxWrapper {
+  display: flex;
+  width: 1000px;
+}
+.footer_about .footer_boxWrapper .footer_about_box {
+  padding-top: 15px;
+  margin-right: 50px;
+}
+.footer_about .footer_boxWrapper .footer_about_box a {
+  color: #fff;
+}
+.footer_about .footer_link nav {
+  width: 630px;
+  margin: 60px auto 10px auto;
+}
+.footer_about .footer_link nav ul li {
+  padding: 0 10px;
+}
+.footer_about .footer_link nav ul li:not(:first-child) {
+  border-left: 1px solid #fff;
+}
+.footer_about .footer_link nav ul li:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+.footer_about .footer_link p {
+  text-align: center;
+  padding-bottom: 27px;
+}

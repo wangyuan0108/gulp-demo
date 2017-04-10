@@ -1,0 +1,106 @@
+.release {
+  margin-top: 10px;
+}
+.release_content {
+  width: 265px;
+  height: 735px;
+  padding-top: 18px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #3c3c3c;
+}
+.release_content a {
+  color: #000;
+}
+.release_content figure {
+  text-align: center;
+}
+.release_content ul {
+  margin-top: 18px;
+  border-top: 1px dashed #000;
+}
+.release_content ul li {
+  height: 62px;
+  line-height: 62px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.release_content ul li:nth-child(2) {
+  background: #666;
+}
+.release_content ul li:nth-child(2) a {
+  color: #fff;
+}
+.release_content ul li:hover {
+  background: #666;
+}
+.release_content ul li:hover a {
+  color: #fff;
+}
+.release aside {
+  box-sizing: border-box;
+  width: 992px;
+  height: 735px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 0 25px;
+}
+.release aside p {
+  margin-top: 25px;
+  font-size: 14px;
+}
+.release aside table {
+  width: 100% !important;
+  text-align: center;
+  color: #333;
+}
+.release aside table thead {
+  height: 55px;
+  line-height: 55px;
+}
+.release aside table thead th {
+  border-bottom: 1px solid #bbb;
+  font-size: 16px;
+}
+.release aside table thead th:first-child {
+  text-align: left;
+  padding-left: 25px;
+}
+.release aside table tbody {
+  height: 44px;
+  line-height: 44px;
+  font-size: 14px;
+}
+.release aside table tbody tr {
+  border-bottom: 1px dashed #ccc;
+}
+.release aside table tbody td:first-child {
+  text-align: left;
+  padding-left: 25px;
+}
+.release aside table tbody td:nth-child(2) {
+  color: #f00;
+}
+.release aside table tbody td:nth-last-child(2) {
+  color: #f00;
+}
+.need_list {
+  height: 80px;
+  line-height: 80px;
+  font-size: 22px;
+}
+.need_list_item {
+  margin-left: 50px;
+  color: #474040;
+}
+.need_list_item a {
+  color: #000;
+}
+.need_list_item:hover {
+  text-shadow: 4px 4px 4px #ced7db;
+}
+.form_input {
+  width: 275px;
+}

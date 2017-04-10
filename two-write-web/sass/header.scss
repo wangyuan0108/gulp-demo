@@ -1,0 +1,159 @@
+$bg-color: linear-gradient(0deg, #d9d9d9, #fefefe);
+$border: 1px solid #333;
+$border-red: 1px solid #e60012;
+@mixin border--num($a,$b,$c,$d) {
+  border-#{$a}: $b $c $d;
+}
+
+html {
+  box-sizing: border-box;
+  font: {
+    size: 12px;
+    family: '微软雅黑';
+  }
+  background-color: #f5f5f5;
+}
+header{
+  background: #fff;
+}
+.a-color {
+  color: #1270df;
+}
+
+.reset-border {
+  border: none !important;
+}
+
+.reset-hidden {
+  overflow: hidden;
+}
+
+.reset-floatLeft {
+  float: left;
+}
+
+.reset-floatRight {
+  float: right;
+}
+
+.rest_hover {
+  text-shadow: 4px 4px 4px #ced7db
+}
+
+.reset-bgColor {
+  background: #fff;
+}
+
+.top {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  background: $bg-color;
+}
+
+.top_wrapper {
+  margin: 0 auto;
+  width: 1260px;
+}
+
+.a-border {
+  border-left: $border;
+  border-right: $border;
+}
+
+.a-padding {
+  padding: 0 15px;
+}
+
+.middle {
+  margin: 22px auto;
+}
+
+.middle_logo {
+  img {
+    display: block;
+    width: 209px;
+  }
+}
+
+.middle_content_a-padding {
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+.form_input {
+  height: 38px;
+  width: 425px;
+  padding-left: 5px;
+  outline: none;
+}
+
+.form-border {
+  display: inline-block;
+  border: $border-red;
+}
+
+.a-block {
+  color: #000;
+}
+
+.btn {
+  display: inline-block;
+  width: 110px;
+  height: 40px;
+  background: url("../images/shousuotubiao.png") #df1827 8px center no-repeat;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.btn-bg {
+  background: #e3e3e3;
+  color: #666;
+}
+
+.from_span-color {
+  color: #ccc;
+}
+
+.middle_content_wrapper {
+  margin-right: 20px;
+}
+
+.middle_nav-mt, .from_span-mt {
+  margin-top: 5px;
+}
+
+.bottom_title {
+  width: 203px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #ffffff;
+  background: #df1827;
+}
+
+.bottom_title-mlr {
+  margin: 0 15px;
+}
+
+.bottom_title-ml {
+  margin-left: 37px;
+  font-size: 16px;
+  margin-top: 17px;
+}
+
+.bottom_title_a-color {
+  color: #444;
+}
+
+.hr_border {
+  border-top: $border-red;
+}
+
+//js的样式
+.js-active {
+  background-color: #df1827;
+  color: #fff;
+}

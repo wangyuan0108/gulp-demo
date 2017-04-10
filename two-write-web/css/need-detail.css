@@ -1,0 +1,83 @@
+.detail {
+  margin-bottom: 95px;
+}
+.detail_title {
+  height: 30px;
+  line-height: 30px;
+  color: #666;
+}
+.detail_content {
+  width: 890px;
+  height: 575px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #3c3c3c;
+}
+.detail_content h2 {
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+}
+.detail_content h2 a {
+  float: right;
+  margin-top: -10px;
+  margin-right: 20px;
+  font-size: 16px;
+  color: #3c3c3c;
+}
+.detail_content h2 a img {
+  transform: translate(-5px, 3px);
+}
+.detail_content section .detail_content_img {
+  text-align: center;
+}
+.detail_content .detail_content_box {
+  font-size: 16px;
+  margin: 20px 0;
+}
+.detail_content .detail_content_box .detail_content_box_left {
+  width: 80px;
+  text-align: right;
+  margin-top: 15px;
+}
+.detail_content .detail_content_box .detail_content_box_right {
+  width: 745px;
+  line-height: 25px;
+  margin-left: 10px;
+  padding: 10px 10px 10px 5px;
+  font-size: 14px;
+  border: 1px solid #dfdfdf;
+}
+.detail aside {
+  box-sizing: border-box;
+  width: 360px;
+  height: 370px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+.detail aside h2 {
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  background: #f00;
+}
+.detail aside .aside_content {
+  padding: 20px 0 0 20px;
+  line-height: 35px;
+  font-family: "Microsoft YaHei";
+  font-size: 16px;
+  color: #666;
+}
+.detail aside .aside_content p b {
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+}
+.detail aside .aside_content p span {
+  color: #f00;
+}
