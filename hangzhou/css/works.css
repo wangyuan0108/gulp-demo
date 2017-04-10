@@ -1,0 +1,62 @@
+h3 {
+  height: 30px;
+  margin-bottom: 22px;
+  line-height: 30px;
+  padding-left: 8px;
+  border-bottom: 1px solid #bababa;
+  color: #bababa;
+}
+main article {
+  overflow: hidden;
+}
+main article aside {
+  float: left;
+  text-align: center;
+}
+main article aside ul li {
+  width: 240px;
+  height: 40px;
+  line-height: 40px;
+}
+main article aside ul li:hover {
+  background: #01af63;
+}
+main article aside ul li:hover a {
+  color: #fff;
+}
+main article section {
+  width: 885px;
+  min-height: 270px;
+  padding-left: 32px;
+  margin-bottom: 108px;
+  float: right;
+  border-left: 1px solid #ccc;
+}
+main article section h2 {
+  font-size: 18px;
+  text-align: center;
+}
+main article section div {
+  margin-top: 10px;
+  text-align: center;
+}
+main article section div span {
+  margin-right: 30px;
+  color: #666;
+}
+main article section div input[type="button"] {
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  background: #096;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+}
+main article dl {
+  font-size: 14px;
+}
+main article dl dt,
+main article dl dd {
+  line-height: 25px;
+}

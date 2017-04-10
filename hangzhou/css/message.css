@@ -1,0 +1,85 @@
+h3 {
+  height: 30px;
+  margin-bottom: 22px;
+  line-height: 30px;
+  padding-left: 8px;
+  border-bottom: 1px solid #bababa;
+  color: #bababa;
+}
+main article {
+  overflow: hidden;
+}
+main article aside {
+  float: left;
+  text-align: center;
+}
+main article aside ul li {
+  width: 240px;
+  height: 40px;
+  line-height: 40px;
+}
+main article aside ul li:hover {
+  background: #01af63;
+}
+main article aside ul li:hover a {
+  color: #fff;
+}
+main article section {
+  width: 885px;
+  padding-left: 32px;
+  float: right;
+  border-left: 1px solid #ccc;
+}
+main article section form div {
+  margin-bottom: 10px;
+}
+main article section form div input[type="text"] {
+  width: 255px;
+  height: 25px;
+  border: 1px solid #ddd;
+}
+main article section form div:nth-of-type(5) textarea {
+  width: 255px;
+  height: 65px;
+  resize: none;
+  border: 1px solid #ddd;
+}
+main article section form div:nth-of-type(6) input {
+  width: 400px;
+}
+main article section form div:nth-of-type(7) textarea {
+  width: 400px;
+  height: 120px;
+  resize: none;
+  border: 1px solid #ddd;
+}
+main article section form div:nth-of-type(8) a {
+  display: inline-block;
+  width: 80px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  color: #444;
+  background: #eee;
+}
+main article section form div:nth-of-type(8) a:nth-of-type(1) {
+  margin-left: 120px;
+  margin-right: 10px;
+}
+main article section form div label {
+  display: inline-block;
+  font-size: 14px;
+  width: 70px;
+  text-align: right;
+}
+main article section form div span {
+  color: #f00;
+}
+main article section form div span img {
+  margin: 0 5px;
+  vertical-align: middle;
+}
+main article section form div textarea {
+  vertical-align: top;
+}

@@ -1,0 +1,65 @@
+main article {
+  overflow: hidden;
+}
+main article aside {
+  float: left;
+}
+main article aside h2 {
+  font-size: 20px;
+  color: #666;
+}
+main article aside ul li {
+  width: 240px;
+  line-height: 40px;
+  cursor: pointer;
+}
+main article aside ul li ul {
+  display: none;
+  color: #777;
+}
+main article aside ul li ul ul {
+  transform: translateX(-9px);
+}
+main article aside ul li img {
+  vertical-align: middle;
+}
+main article section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 890px;
+  padding-left: 32px;
+  float: right;
+  border-left: 1px solid #ccc;
+}
+main article section .content-box {
+  display: flex;
+  padding-bottom: 22px;
+  margin-bottom: 22px;
+  flex: 1;
+  border-bottom: 1px solid #e8e8e8;
+}
+main article section .content-box img {
+  width: 180px;
+  height: 135px;
+}
+main article section .content-box div {
+  padding-left: 10px;
+}
+main article section .content-box div h2 {
+  height: 25px;
+  line-height: 25px;
+  font-size: 15px;
+}
+main article section .content-box div h2:hover a {
+  color: #018d50;
+}
+main article section .content-box div h2 a {
+  color: #474946;
+}
+main article section .content-box div p {
+  width: 245px;
+  line-height: 22px;
+  color: #666;
+  text-align: justify;
+  padding-right: 5px;
+}

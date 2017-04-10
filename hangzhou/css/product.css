@@ -1,0 +1,54 @@
+h3 {
+  height: 30px;
+  margin-bottom: 22px;
+  line-height: 30px;
+  padding-left: 8px;
+  border-bottom: 1px solid #bababa;
+  color: #bababa;
+}
+main section div h4 {
+  font-size: 25px;
+  color: #666;
+  text-align: center;
+}
+main section div ul {
+  display: flex;
+  margin-top: 100px;
+}
+main section div .nav {
+  position: relative;
+  min-height: 300px;
+}
+main section div .nav li {
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 2px;
+  cursor: default;
+}
+main section div .nav li div {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 850px;
+  padding: 0 10px;
+  line-height: 23px;
+  text-align: justify;
+  color: #555;
+  text-indent: 2em;
+}
+.play {
+  background: #68b535;
+  color: #fff;
+}
+.def {
+  background: #ddd;
+  color: #555;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
