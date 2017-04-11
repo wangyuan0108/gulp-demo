@@ -100,9 +100,8 @@ nav .container section > ul > li:hover .list {
 .list li:hover a {
   color: #fff;
 }
-.focus {
-  height: 520px;
-  background: #ccc;
+.bd img {
+  display: block;
 }
 .banner {
   height: 27px;
@@ -127,7 +126,7 @@ nav .container section > ul > li:hover .list {
 }
 .profile {
   display: flex;
-  margin-top: 40px;
+  margin-top: 40px !important;
 }
 .profile section {
   margin-left: 40px;
@@ -153,9 +152,11 @@ nav .container section > ul > li:hover .list {
   background: #fff799;
   text-align: center;
   float: right;
+  border: 1px silid #fff799;
+  border-radius: 10px;
 }
 .goods {
-  margin-top: 55px;
+  margin-top: 55px !important;
 }
 .goods aside {
   text-align: center;
@@ -179,6 +180,7 @@ nav .container section > ul > li:hover .list {
 }
 .goods section {
   display: flex;
+  margin-bottom: 35px;
 }
 .goods section .content-box {
   display: flex;
@@ -191,6 +193,7 @@ nav .container section > ul > li:hover .list {
 .goods section .content-box figure ul {
   display: flex;
   flex-wrap: wrap;
+  width: 280px;
   justify-content: space-between;
 }
 .goods section .content-box figure ul li {
@@ -240,6 +243,7 @@ nav .container section > ul > li:hover .list {
 }
 .goods-two section .content-box figure ul {
   display: flex;
+  width: 280px !important;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -255,7 +259,7 @@ nav .container section > ul > li:hover .list {
   color: #fff;
 }
 .msg {
-  margin-top: 55px;
+  margin-top: 20px !important;
 }
 .msg aside {
   text-align: center;
@@ -296,7 +300,7 @@ nav .container section > ul > li:hover .list {
   float: right;
 }
 .wrapper {
-  margin-top: 30px;
-  padding: 20px 0;
+  margin-top: 25px;
+  padding: 10px 0;
   background: #f3f3f3;
 }

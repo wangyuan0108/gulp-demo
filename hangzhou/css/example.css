@@ -24,15 +24,12 @@ main article aside ul li img {
   vertical-align: middle;
 }
 main article section {
-  display: flex;
-  flex-wrap: wrap;
-  width: 890px;
   padding-left: 32px;
   float: right;
   border-left: 1px solid #ccc;
 }
 main article section .content-box {
-  display: flex;
+  float: left;
   padding-bottom: 22px;
   margin-bottom: 22px;
   flex: 1;
@@ -44,6 +41,7 @@ main article section .content-box img {
 }
 main article section .content-box div {
   padding-left: 10px;
+  float: left;
 }
 main article section .content-box div h2 {
   height: 25px;

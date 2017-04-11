@@ -59,6 +59,7 @@ nav .container section > ul > li {
   height: 30px;
   line-height: 30px;
   text-align: center;
+  font-size: 16px;
 }
 nav .container section > ul > li:hover {
   background: #01af63;
@@ -86,6 +87,7 @@ nav .container section > ul > li:hover .list {
 }
 .list li a {
   color: #fff;
+  font-size: 14px;
 }
 .list li:hover {
   background: #019d59;

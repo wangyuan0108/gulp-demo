@@ -21,7 +21,7 @@ a {
 .slideBox {
     overflow: hidden;
     position: relative;
-    border: 1px solid #ddd;
+    /*border: 1px solid #ddd;*/
 }
 
 .slideBox .hd {
@@ -29,6 +29,7 @@ a {
     overflow: hidden;
     position: absolute;
     left: 50%;
+    transform: translateX(-50%);
     bottom: 5px;
     z-index: 1;
 }

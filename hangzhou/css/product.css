@@ -6,6 +6,17 @@ h3 {
   border-bottom: 1px solid #bababa;
   color: #bababa;
 }
+main {
+  background: #f9f9f9;
+}
+main section {
+  margin-bottom: 108px;
+  background: #fff;
+}
+main section div {
+  float: left;
+  margin-top: 10px;
+}
 main section div h4 {
   font-size: 25px;
   color: #666;
@@ -13,7 +24,7 @@ main section div h4 {
 }
 main section div ul {
   display: flex;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 main section div .nav {
   position: relative;
@@ -37,6 +48,16 @@ main section div .nav li div {
   text-align: justify;
   color: #555;
   text-indent: 2em;
+}
+.jst {
+  clear: left;
+}
+.border {
+  margin-right: 10px;
+  border-right: 1px solid #eee;
+}
+.sou {
+  margin-left: -200px;
 }
 .play {
   background: #68b535;

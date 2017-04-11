@@ -16,10 +16,11 @@ main article aside {
 main article aside h2 {
   font-size: 20px;
   color: #666;
+  font-weight: bold;
 }
 main article aside ul li {
   width: 240px;
-  line-height: 40px;
+  line-height: 30px;
   cursor: pointer;
 }
 main article aside ul li ul {
@@ -33,22 +34,22 @@ main article aside ul li img {
   vertical-align: middle;
 }
 main article section {
-  display: flex;
-  flex-wrap: wrap;
-  width: 885px;
+  width: 900px;
   padding-left: 32px;
+  margin-bottom: 108px;
   float: right;
   border-left: 1px solid #ccc;
 }
 main article section .content-box {
-  display: flex;
+  width: 450px;
+  float: left;
   padding-bottom: 22px;
   margin-bottom: 22px;
-  flex: 1;
   border-bottom: 1px solid #e8e8e8;
 }
 main article section .content-box div {
   padding-left: 10px;
+  float: left;
 }
 main article section .content-box div h2 {
   height: 25px;

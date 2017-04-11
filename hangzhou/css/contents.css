@@ -11,8 +11,12 @@ main section h5 {
   font-size: 16px;
   text-align: center;
   margin-bottom: 32px;
+  color: #666;
 }
 main section h5 span {
   margin-left: 20px;
   color: #999;
+}
+main section p {
+  font-size: 16px;
 }

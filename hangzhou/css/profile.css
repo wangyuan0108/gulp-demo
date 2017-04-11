@@ -17,6 +17,10 @@ main article aside ul li {
   width: 240px;
   height: 40px;
   line-height: 40px;
+  font-size: 20px;
+}
+main article aside ul li a {
+  color: #666;
 }
 main article aside ul li:hover {
   background: #01af63;
@@ -27,6 +31,7 @@ main article aside ul li:hover a {
 main article section {
   width: 885px;
   padding-left: 32px;
+  margin-bottom: 108px;
   float: right;
   border-left: 1px solid #ccc;
 }

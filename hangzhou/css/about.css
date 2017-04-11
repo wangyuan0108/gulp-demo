@@ -12,11 +12,13 @@ main article {
 main article aside {
   float: left;
   text-align: center;
+  color: #666;
 }
 main article aside ul li {
   width: 240px;
   height: 40px;
   line-height: 40px;
+  font-size: 20px;
 }
 main article aside ul li:hover {
   background: #01af63;

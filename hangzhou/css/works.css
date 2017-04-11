@@ -17,6 +17,10 @@ main article aside ul li {
   width: 240px;
   height: 40px;
   line-height: 40px;
+  font-size: 20px;
+}
+main article aside ul li a {
+  color: #666;
 }
 main article aside ul li:hover {
   background: #01af63;
@@ -52,9 +56,11 @@ main article section div input[type="button"] {
   color: #fff;
   border-radius: 5px;
   font-size: 14px;
+  outline: none;
 }
 main article dl {
   font-size: 14px;
+  color: #333;
 }
 main article dl dt,
 main article dl dd {

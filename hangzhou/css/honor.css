@@ -1,10 +1,5 @@
-main section {
-  display: flex;
-  flex-wrap: wrap;
-}
 main section .content-box {
-  display: flex;
-  flex: 1;
+  float: left;
   margin-left: 20px;
   margin-bottom: 25px;
 }

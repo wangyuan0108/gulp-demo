@@ -15,6 +15,9 @@ main section ul li p {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+main section ul li p a {
+  font-size: 14px;
+}
 main section ul li span {
   float: right;
 }
