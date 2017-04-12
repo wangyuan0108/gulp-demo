@@ -24,6 +24,7 @@ footer article section ul:nth-of-type(1) {
 }
 footer article section ul:last-of-type {
   margin-right: 0;
+  border-right: none;
 }
 footer article section ul li {
   text-align: left;
